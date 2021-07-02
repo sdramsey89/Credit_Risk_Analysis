@@ -32,7 +32,7 @@ The purpose of this analysis was to apply machine learning to solve the real-wor
 - Precision: 0.99
 - Recall: 0.94
 
-|Classifier   | Accuracy   |Precision   |Recall   |F1   |
+|Model   | Accuracy   |Precision   |Recall   |F1   |
 |:-:|:-:|:-:|:-:|:-:|
 |Random Over Sampling   |0.655   |0.99   |0.59   |0.73   |
 |SMOTE   |0.662   |0.99   |0.69   |0.81   |
@@ -42,3 +42,4 @@ The purpose of this analysis was to apply machine learning to solve the real-wor
 |Easy Ensemble   |0.932   |0.99   |0.94   |0.97   |
 
 ## Summary
+Based on the findings above, I would recommend going with the Easy Ensemble Model. It has the highest accuracy, recall, and F1 scores (.932, .94, and .97). All the models had very high precision .99 but the other scores for the models varied. Since this model is looking at credit card risk accuracy is more important than sensitivity. Higher sensitivity is more important when there are concerns about false negatives, such as medical tests. However, becasue the Easy Ensemble Method was the clear stand out and has both high accuracy, recall/sensitivity and F1, we do not need to worry about accuracy vs. sensitivity.
